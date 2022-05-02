@@ -7,9 +7,9 @@
 import pickle
 
 with open('tuple.bin','rb') as fh:
-        tup = pickle.load(fh) 
+        t = pickle.load(fh) 
 
-print(type(tup))
-print(tup)
+print(type(t))
+print(t)
 
 print("done...")
